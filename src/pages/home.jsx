@@ -7,8 +7,12 @@ export default function Home () {
     return (
         <>
            <HeroSection/>
+<<<<<<< HEAD
            <BmiCalculation/>
            {/* <HeroBmiCalculator/> */}
+=======
+          <BmiCalculation/>
+>>>>>>> 740664c (fix bmi result and layout)
            <Main/>
            
             

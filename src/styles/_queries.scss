@@ -116,7 +116,7 @@ content: "";
 
    .bmi-calculation{
    
-    top:-14%;
+    top:42%;
     max-width: 500px;
      left: 75%;
   }
@@ -273,6 +273,13 @@ margin-top:auto;
   .article-section__second .last-wrapper:nth-child(5) {
     grid-column: 3 / 4;
     grid-row: 3;
+  }
+
+   .bmi-calculation{
+   
+    top:32%;
+    max-width: 500px;
+     left: 75%;
   }
 
 }

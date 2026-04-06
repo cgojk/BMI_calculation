@@ -45,7 +45,11 @@ Users should be able to:
 
 ## Author
 
+<<<<<<< HEAD
 catalina
+=======
+Catalina
+>>>>>>> 740664c (fix bmi result and layout)
 
 conditions:
 
