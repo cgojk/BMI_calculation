@@ -1,0 +1,52 @@
+.hero{
+    background: var(--gradient-hero);
+    padding: 2em; /* top & horizontal padding */
+    padding-bottom: 15em; /* keeps your big bottom space */
+    border-radius: 0 0 2.1875rem 2.1875rem;
+    // position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* center content horizontally */
+}
+
+.hero * {
+  margin: 0;
+}
+
+.hero-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+   
+   
+
+    }
+
+.logo_hero{
+    width:65px;
+    height:auto;
+    margin-bottom:1rem;
+    align-self:center;
+}
+
+.title_hero{
+    font-size:var(--fs-heading-xl);
+    line-height:var(--lh-heading);
+    font-weight:var(--fw-semibold);
+    color:var(--color-blue-900);
+    margin-bottom:1rem;
+    text-align:center;
+
+}
+
+.hero-content p{
+    font-size:var(--fs-body-lg);
+    line-height:var(--lh-body);
+    color:var(--color-grey-500);
+    margin-bottom:2rem;
+    text-align:center;
+}
+
+

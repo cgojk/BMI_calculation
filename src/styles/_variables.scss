@@ -1,0 +1,73 @@
+:root {
+  /* ================= COLORS ================= */
+  --color-grey-500: #5E6E85;
+  --color-grey-300: #ACC1DE;
+
+  --color-blue-900: #253347;
+  --color-blue-500: #345FF6;
+  --color-blue-300: #B3D3F1;
+  --color-blue-100: #E1E7FE;
+  --color-white: #FFFFFF;
+  --color-red-500: #FF4C4C;
+   --borders: #d8e2e7;
+ --color_subtitles:#253347;
+
+  --active: #275EFE;
+  --border: #BBC1E1;
+
+  --color-icons_background:#f3f7fc;
+
+
+  /* Gradient */
+  --gradient-hero:linear-gradient(
+  290.1deg,
+  #d6e6fe 0%,
+  rgba(214, 252, 254, 0) 100%
+);
+
+ --gradient-icons:linear-gradient(90deg, #345ff7 0%, #587dff 100%);
+
+  /* ================= BREAKPOINTS ================= */
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1440px;
+
+  /* ================= TYPOGRAPHY ================= */
+
+  /* Font family */
+  --ff-base: "Inter", sans-serif;
+
+  /* Font weights */
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ================= FONT SIZES (CLAMP) ================= */
+
+  /* H1 */
+  --fs-heading-xl: clamp(2.5rem, 1.5rem + 2vw, 4rem);
+
+  /* H2 */
+  --fs-heading-lg: clamp(1.75rem, 1.2rem + 1.5vw, 3rem);
+
+  /* H3 */
+  --fs-heading-md: clamp(1.25rem, 1rem + 1vw, 1.5rem);
+
+  /* Body */
+  --fs-body: clamp(0.95rem, 0.85rem + 0.3vw, 1rem);
+
+  /* Body large */
+  --fs-body-lg: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+
+  /* Small text */
+ --fs-body-lg: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+
+--fs-body-sm: clamp(0.875rem, 0.8rem + 0.4vw, 1rem);
+
+--fs-small: clamp(0.8rem, 0.75rem + 0.2vw, 0.875rem);
+
+  /* Line heights */
+  --lh-heading: 1.1;
+  --lh-body: 1.5;
+}

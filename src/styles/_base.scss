@@ -1,0 +1,82 @@
+// * Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  border: 0;
+}
+
+* {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+   min-height: 100vh;
+  line-height: 1.5;
+  
+}
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 0;
+}
+
+
+/* Make images easier to work with */
+img,
+picture,
+video,canvas,
+svg {
+  max-width: 100%;
+  display: block;
+  height:auto;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+// font family
+body {
+  font-family: var(--ff-base);
+  min-height: 100vh;
+  line-height: var(--lh-body);
+  font-size:var(--fs-body);
+  scroll-behavior: smooth;
+  display:flex;
+  flex-direction:column;
+  align-items:Center;
+  // background:var(--gradient-hero);
+}
+
+.container{
+  max-width:1200px;
+  margin:0 auto;
+  padding:0 1.5rem;
+}
+
+.main-content{
+  position:relative
+}

@@ -1,0 +1,167 @@
+
+
+
+
+.article-section{
+    
+    padding: 2em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+     gap:2em;
+     margin-top:12em;
+     background:var(--color-white);
+}
+
+ .article-section__second{
+    padding: 2em;
+    display:fle;
+    flex-direction:column;
+    align-items:center;
+     gap:3.5em;
+     margin-top:3em;
+}
+
+
+
+
+.article-section-text{
+    padding:2em;
+}
+.article-section-title{
+    font-size:var(--fs-heading-lg);
+    line-height:var(--lh-heading);
+    font-weight:var(--fw-bold);
+    color:var(--color-blue-900);
+    letter-spacing: 0.029em;
+    text-align:center;
+}
+
+.article-section-title__second{
+    font-size:var(--fs-heading-xl);
+    line-height:var(--lh-heading);
+    font-weight:var(--fw-bold);
+    color:var(--color-blue-900);
+    letter-spacing: 0.029em;
+    text-align:center;
+    margin-bottom:1em;
+  
+}
+
+
+.article-section-content p{
+    font-size:var(--fs-body-lg);
+    line-height:var(--lh-body);
+    color:var(--color-grey-500);
+    text-align:center;
+    margin-top:1em;
+    
+}
+
+.article-section-description__second{
+    font-size:var(--fs-body-lg);
+    line-height:var(--lh-body);
+    color:var(--color-grey-500);
+    text-align:center;
+
+}
+.article-section-image-wrapper{
+    margin-top:3em;
+}
+
+// =========================styles icons seciton middle=======
+
+// styling the last seciton of icons 
+
+
+.last-grid{
+    display:grid;
+
+    // background: var(--color-icons_background);
+    gap:2em;
+    margin-top:2em;
+
+}
+.last-icon{
+    width:50px
+}
+.last-wrapperImage_title{
+    display:flex;
+    flex-direction:row;
+    gap:2em;
+    align-items:left;
+    align-items: center;
+    margin-bottom:1em;
+}
+
+.last-title{
+    font-size:var(--fs-body-lg);
+    line-height:var(--lh-body);
+    color:var(--color-blue-900);
+    font-weight: var(--fw-bold);
+}
+
+.last-wrapper{
+    background: var(--color-white);
+    padding:2em;
+    border-radius: 0.5rem;
+    box-shadow:  1rem 2rem 3.5rem rgba(143, 174, 207, 0.25);
+    // width: 0%;       /* mobile first */
+    // min-width: 300px; /* prevent it from getting too wide */
+
+
+    
+}
+.last-wrapper:hover{
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+
+// styling the icons section in the middle of the page
+
+.middle-grid{
+    background-color:var(--color-icons_background);
+    padding:2em;
+    display:flex;
+    flex-direction:column;
+    // display:grid;
+    gap:2.5em;
+
+}
+.middle-icon{
+    width: 65px;
+}
+
+.middle-wrapper{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    gap:2rem;
+   
+}
+.middle-wrapperImage_title{
+    display:flex;
+    flex-direction:column;
+    gap:2em;
+    align-items:left;
+
+}
+.middle-title{
+    font-size:var(--fs-heading-md);
+    line-height:var(--lh-heading);
+    font-weight:var(--fw-bold);
+    color:var(--color-blue-900);
+    letter-spacing: 0.029em;
+
+    
+}
+.middle-text{
+    font-size:var(--fs-body-lg);
+    line-height:var(--lh-body);
+    color:var(--color-grey-500);
+    font-weight: var(--fw-regular);
+    text-align:left;
+   
+}
