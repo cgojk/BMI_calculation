@@ -30,11 +30,7 @@
     text-align: left;
   }
 
-//   .article-section__second{
-//     padding: 2em;
-//     display:grid;
-//     grid-template-columns: auto auto auto;
-  
+
                         
 //   }
   .last-grid{
@@ -273,6 +269,11 @@ margin-top:auto;
   .article-section__second .last-wrapper:nth-child(5) {
     grid-column: 3 / 4;
     grid-row: 3;
+  }
+  .bmi-calculation{
+    top:32%;
+    max-width: 500px;
+     left: 75%;
   }
 
    .bmi-calculation{
