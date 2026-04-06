@@ -3,7 +3,7 @@ import Articlesection from "./Articlesection";
 // import Lastsection from "./Lastsection";
 import Middlesection from "./Middlesection";
 import Lasticons from "./LastIcons";
-import BmiCalculation from "./BmiCalculation";
+// import BmiCalculation from "./BmiCalculation";
 
 
 export default function Main(){
@@ -11,7 +11,7 @@ export default function Main(){
 
     <main class="main-content">
        
-      <BmiCalculation/>
+      {/* <BmiCalculation/> */}
        <Articlesection/>
        <Middlesection/>
        {/* <Lastsection/> */}
