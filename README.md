@@ -30,9 +30,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/g-akca/bmi-calculator)
-- Live Site URL: [Body Mass Index Calculator](https://g-akca.github.io/bmi-calculator/)
-
 ## My process
 
 ### Built with
@@ -45,12 +42,10 @@ Users should be able to:
 - Responsive design
 - Dynamic JavaScript
 - [React](https://reactjs.org/) - JS library
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
 
 ## Author
 
-- GitHub - [@g-akca](https://github.com/g-akca)
-- Frontend Mentor - [@g-akca](https://www.frontendmentor.io/profile/g-akca)
+catalina
 
 conditions:
 
