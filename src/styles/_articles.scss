@@ -1,5 +1,5 @@
 
-
+// articles styles
 
 
 .article-section{
@@ -53,10 +53,21 @@
     letter-spacing: 0.029em;
     text-align:center;
     margin-bottom:1em;
+    position:relative;
   
 }
+.article-section-title__second::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px; /* Adjust this value to position the line */
+    width: 50px; /* Adjust the width of the line */
+    height: 4px; /* Adjust the thickness of the line */
+    background: url("./assets/images/line-decoration.svg") /* Line color */
 
 
+}
 .article-section-content p{
     font-size:var(--fs-body-lg);
     line-height:var(--lh-body);
