@@ -25,8 +25,20 @@ body {
 /* Set core body defaults */
 body {
    min-height: 100vh;
-  line-height: 1.5;
+  line-height: var(--lh-body);;
   
+}
+
+/* Chrome, Safari, Edge */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 input[type="radio"] {
@@ -58,25 +70,19 @@ select {
   font: inherit;
 }
 
-// font family
+
 body {
   font-family: var(--ff-base);
   min-height: 100vh;
-  line-height: var(--lh-body);
+ 
   font-size:var(--fs-body);
   scroll-behavior: smooth;
-  display:flex;
-  flex-direction:column;
-  align-items:Center;
-  // background:var(--gradient-hero);
+ 
 }
 
 .container{
   max-width:1200px;
   margin:0 auto;
-  padding:0 1.5rem;
+ 
 }
 
-// .main-content{
-//   // position:relative
-// }

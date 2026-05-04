@@ -10,7 +10,8 @@
   --color-white: #FFFFFF;
   --color-red-500: #FF4C4C;
    --borders: #d8e2e7;
- --color_subtitles:#253347;
+  --color_subtitles:#253347;
+  --gradient-results:linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
 
   --active: #275EFE;
   --border: #BBC1E1;
@@ -36,39 +37,100 @@
   /* Font family */
   --ff-base: "Inter", sans-serif;
 
+
   /* Font weights */
-  --fw-light: 300;
-  --fw-regular: 400;
-  --fw-medium: 500;
-  --fw-semibold: 600;
-  --fw-bold: 700;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-400: 400;
+  --fw-300:300;
+
 
   /* ================= FONT SIZES (CLAMP) ================= */
 
-  /* H1 */
-  --fs-heading-xl: clamp(2.5rem, 1.5rem + 2vw, 4rem);
-
-  /* H2 */
-  --fs-heading-lg: clamp(1.75rem, 1.2rem + 1.5vw, 3rem);
-
-  /* H3 */
-  --fs-heading-md: clamp(1.25rem, 1rem + 1vw, 1.5rem);
-
-  /* Body */
-  --fs-body: clamp(0.95rem, 0.85rem + 0.3vw, 1rem);
-
-  /* Body large */
-  --fs-body-lg: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
-
-  /* Small text */
- --fs-body-lg: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
- 
-
---fs-body-sm: clamp(0.875rem, 0.8rem + 0.4vw, 1rem);
-
---fs-small: clamp(0.8rem, 0.75rem + 0.2vw, 0.875rem);
+  --fs-1: clamp(2.5rem, 5vw, 4rem);   /* 64px */
+  --fs-2: clamp(2rem, 4vw, 3rem);     /* 48px */
+  --fs-3: clamp(1.25rem, 2.5vw, 1.5rem); /* 24px */
+  --fs-4: clamp(1.1rem, 2vw, 1.25rem);   /* 20px */
+  --fs-5: 1rem;                        /* 16px */
+  --fs-6: 0.775rem;                    /* 14px */
 
   /* Line heights */
   --lh-heading: 1.1;
+  --lh-subtitle:1.2;
   --lh-body: 1.5;
+  /* Letter spacing */
+  --lh-small:0.05;
+
+
+
+
+
+
+  --radius-full: 999px;
+	--radius-28: 28px;
+	--radius-24: 24px;
+	--radius-20: 20px;
+	--radius-16: 16px;
+	--radius-12: 12px;
+	--radius-10: 10px;
+	--radius-8: 8px;
+	--radius-6: 6px;
+	--radius-4: 4px;
+  --radius-2: 2px;
+	--radius-0: 0px;
+
+
+
+/* BIG HERO */
+  --font-1: var(--fw-600) var(--fs-1)/1.1 var(--ff-base); 
+  /* 64px, 110% line-height */
+
+  --font-2: var(--fw-600) var(--fs-2)/1.1 var(--ff-base); 
+  /* 48px, 110% */
+
+  --font-3: var(--fw-600) var(--fs-2)/1 var(--ff-base); 
+  /* 48px, 100% */
+
+  /* HEADINGS */
+  --font-4: var(--fw-600) var(--fs-3)/1.2 var(--ff-base); 
+  /* 24px */
+
+  --font-5: var(--fw-600) var(--fs-4)/1.2 var(--ff-base); 
+  /* 20px */
+
+  /* BODY */
+  --font-6: var(--fw-400) var(--fs-5)/1.5 var(--ff-base); 
+  /* 16px */
+
+  --font-7: var(--fw-700) var(--fs-6)/1.5 var(--ff-base); 
+  /* 14px bold */
+
+  --font-8: var(--fw-400) var(--fs-6)/1.5 var(--ff-base); 
+  /* 14px regular */
+  --font-9: var(--fw-300) var(--fs-6)/1.5 var(--ff-base); 
+  /* 14px light */
+
+
+  // spacing
+ --spacing-0: 0rem;
+
+  --spacing-100: 0.5rem;   /* 8px */
+  --spacing-200: 1rem;     /* 16px */
+  --spacing-300: 1.5rem;   /* 24px */
+  --spacing-400: 2rem;     /* 32px */
+  --spacing-500: 2.5rem;   /* 40px */
+  --spacing-600: 3rem;     /* 48px */
+  --spacing-700: 3.5rem;   /* 56px */
+
+  --spacing-900: 4.5rem;   /* 72px */
+  --spacing-1100: 5.5rem;  /* 88px */
+  --spacing-1200: 6rem;    /* 96px */
+  --spacing-1300: 6.5rem;  /* 104px */
+
+  --spacing-1600: 8rem;    /* 128px */
+  --spacing-1800: 9rem;    /* 144px */
+
 }
+  
+
+

@@ -1,7 +1,9 @@
 import React, { useRef, useEffect } from "react";
+import "./BmiCalculation.jsx"
 
 
 import image from "../assets/logo.svg"
+import BmiCalculation from "./BmiCalculation.jsx";
 
 
 export default function HeroSection(){
@@ -20,8 +22,10 @@ export default function HeroSection(){
                 starting point to evaluate your overall health and well-being.
             </p>
          </div>
+          <BmiCalculation />
           
     </div>
+   
   
 </header>
   );
