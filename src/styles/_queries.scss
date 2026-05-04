@@ -12,6 +12,7 @@
     font-size: var(--fs-body-sm);
     
    }
+
  
    .article-section-image-wrapper {
      width: 100%;
@@ -36,6 +37,11 @@
     padding:2em;
     text-align:left;
     border-radius: var(--radius-4) var(--radius-full) var(--radius-full) var(--radius-4);
+}
+.bmi-result{
+    
+    border-radius: var(--radius-4) var(--radius-full) var(--radius-full) var(--radius-4);
+    
 }
 
 
